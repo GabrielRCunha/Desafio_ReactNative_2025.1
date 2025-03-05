@@ -27,8 +27,8 @@ export default function RootLayout() {
   return (
     <>
       <StatusBar backgroundColor={"#17194A"}/>
-      <Stack>
-        <Stack.Screen name='index' options={{headerShown: false}}/>
+      <Stack screenOptions={{headerShown: false}}>
+        <Stack.Screen name="index" />
       </Stack>
     </> 
   );
