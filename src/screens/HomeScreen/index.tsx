@@ -1,11 +1,14 @@
-import { View, Text, ScrollView, SafeAreaView, Image, ImageBackground, TouchableOpacity } from "react-native";
+import { View, Text, ScrollView, SafeAreaView, Image, ImageBackground, TouchableOpacity, Button } from "react-native";
 import React from 'react';
 import { styles } from './styles';
 import { Categorias } from '../../components/Categorias';
 import { Produtos } from "@/src/components/Produtos";
+import { Navbar } from "@/src/components/Navbar/Navbar";
 
-export default function Home() {
+export function Home({}) {
   return (
+    <>
+    <Navbar />
     <ScrollView style={styles.fundo}>
       <View style={styles.containerScroll}>
         <Text style={styles.titulo}>SixStrings</Text>
@@ -61,5 +64,7 @@ export default function Home() {
         <Image source={require('../../../assets/images/logo.png')}/>
       </View>
     </ScrollView>
+    
+    </>
   );
 }

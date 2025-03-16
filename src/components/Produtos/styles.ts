@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
         borderRadius: 30,
         flex: 0,
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
       },
     
       textoBotaoItem: {
