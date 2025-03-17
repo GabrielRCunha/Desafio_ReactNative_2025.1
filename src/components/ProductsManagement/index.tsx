@@ -1,10 +1,12 @@
 import {View, Text, Image, ImageSourcePropType, TouchableOpacity} from "react-native";
 import {styles} from "./styles";
 
+
+
 type productProps = {
     title: String;
     price: String;
-    image: ImageSourcePropType
+    image: ImageSourcePropType;
 }
 
 export function ProductsManagement({title, price, image}: productProps){

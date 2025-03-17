@@ -9,7 +9,8 @@ export const styles = StyleSheet.create({
         marginBottom: 20,
         flex: 0,
         alignItems: "center",
-        marginRight: 20
+        marginRight: 20,
+        justifyContent: "space-between"
     },
     
     imgCard: {
@@ -37,6 +38,7 @@ export const styles = StyleSheet.create({
         flex: 0,
         alignItems: "center",
         justifyContent: "center",
+        
       },
     
       textoBotaoItem: {

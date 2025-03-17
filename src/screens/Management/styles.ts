@@ -2,7 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container:{
-        backgroundColor: "#0d0d0d"
+        flex: 1,
+        backgroundColor: "#0d0d0d",
     },
 
     title:{
@@ -10,6 +11,15 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         marginTop: 20,
         marginBottom: 20
+    },
+
+    modal:{
+        alignSelf: "center",
+        flex: 1,
+        width: "100%",
+        height: "100%",
+        alignItems: "center",
+        justifyContent: "center",
     },
 
     textTitle:{
