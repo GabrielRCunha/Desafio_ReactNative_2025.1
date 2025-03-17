@@ -18,7 +18,7 @@ const produtos = [
       "nome": "Ibanez Guitarra elétrica Gio GRGR131EX - preta plana",
       "preco": "3200,00",
       "descricao": "Perfeita para shredding e solos rápidos, com captadores potentes.",
-      "imagem": require("../images/guitarra.png")
+      "imagem": require("../images/stratocasterSunburst.png")
     },
     {
       "id": 4,

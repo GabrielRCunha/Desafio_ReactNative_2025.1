@@ -10,7 +10,8 @@ export const styles = StyleSheet.create({
         flex: 0,
         alignItems: "center",
         marginRight: 20,
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        borderRadius: 12
     },
     
     imgCard: {
